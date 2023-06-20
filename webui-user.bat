@@ -3,6 +3,6 @@
 set PYTHON=
 set GIT=
 set VENV_DIR=
-set COMMANDLINE_ARGS=--xformers
+set COMMANDLINE_ARGS=--xformers --opt-sdp-attention --disable-nan-check
 
 call webui.bat
